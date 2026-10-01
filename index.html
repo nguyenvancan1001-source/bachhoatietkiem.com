@@ -159,6 +159,8 @@ nav.main a[aria-current=page]{color:var(--accent);border-bottom-color:var(--acce
 .story blockquote{margin:8px 0 0;padding:18px 22px;border-left:4px solid var(--accent);background:#fff;border-radius:0 16px 16px 0;font-family:var(--display);font-weight:700;font-size:21px;line-height:1.4;color:var(--accent-dk)}
 .story p{font-weight:700;color:var(--ink)}
 .story strong{color:var(--accent-dk);font-weight:800}
+.story p.story-slogan{font-family:var(--display);font-weight:800;font-size:clamp(26px,3vw,34px);line-height:1.2;color:var(--accent);margin-top:6px}
+.story p.story-slogan::first-letter{all:unset}
 /* footer */
 footer.site .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;padding-top:56px;padding-bottom:28px}
 footer.site .copy{border-top:1px solid var(--panel-line);font-size:13px;padding-top:18px;padding-bottom:28px}
@@ -248,7 +250,7 @@ nav.main a.mobile-only{display:none}
  <div class="stack g20">
   <span class="eyebrow">VỀ CHÚNG TÔI</span><h2>Đi chợ tiết kiệm, phục vụ tận tâm</h2>
   <p class="lead">Bách hóa tiết kiệm.com là cửa hàng bách hóa giá thấp gần nhà. Chúng tôi tập trung vào những mặt hàng gia đình cần mỗi ngày, bán với giá thấp ổn định để mọi người đi chợ nhẹ nhàng hơn.</p>
-  <p class="lead">Mỗi thành viên cửa hàng đều giữ tinh thần phục vụ tận tình, chu đáo: chủ động chào đón, dẫn khách đến tận kệ hàng, và sẵn sàng đổi trả khi khách chưa hài lòng.</p>
+  <p class="lead">Để luôn mang đến giá thấp mỗi ngày, mỗi thành viên cửa hàng làm việc tận tâm và tiết kiệm như chính cửa hàng của mình: giữ gìn từng món hàng, không để hư hỏng, lãng phí, vận hành tinh gọn – vì mỗi đồng tiết kiệm được là một đồng tiết kiệm cho khách hàng. Và cùng với giá rẻ, khách hàng luôn nhận được sự phục vụ trọn vẹn: lời chào niềm nở khi đến, sự hướng dẫn chu đáo khi cần, và đổi trả vui vẻ khi chưa hài lòng.</p>
   <div class="card white" style="padding:16px 20px;font-weight:600">Phụng sự bằng trái tim chân thành.</div>
  </div>
 </div>
@@ -264,11 +266,12 @@ nav.main a.mobile-only{display:none}
    <p>Để làm được điều đó, chúng tôi <strong>trân trọng từng đồng</strong> như mẹ đã từng: vận hành tinh gọn, không phung phí, không chi tiêu cho những thứ không mang lại giá trị cho khách hàng. Mỗi đồng tiết kiệm được, chúng tôi để giữ giá thấp hơn. Để dành phần tiết kiệm đó <strong>cho người mẹ, người bà</strong>.</p>
    <p><strong>Ngày 10.10.2026</strong>, cửa hàng đầu tiên mở cửa tại Thôn Vinh Thanh, xã Phú Vinh, TP Huế. Đó không chỉ là một cửa hàng, mà là <strong>lời hứa</strong> của chúng tôi: mỗi đồng tiền mồ hôi nước mắt của bà con, khi bước vào Bách hóa tiết kiệm.com, đều được trân trọng.</p>
    <blockquote>Tiết kiệm cho khách hàng một đồng, là giúp khách hàng thêm một bữa cơm ngon, có thêm một chiếc áo ấm cho mùa đông, thêm chút tiền tích lũy để dành cho tương lai của các con còn đang đi học.</blockquote>
+   <p class="story-slogan">Tiết kiệm hơn – để sống tốt hơn.</p>
   </div>
  </div>
  <ol class="timeline">
   <li><span class="tl-dot"></span><div class="tl-card"><span class="tl-time">2026</span><h3>Khởi nguồn từ một mong muốn</h3><p class="muted">Mong muốn có một nơi đi chợ gần nhà, nơi người mẹ, người bà nào cũng mua được giá rẻ mỗi ngày – đó là khởi đầu của Bách hóa tiết kiệm.com.</p></div></li>
-  <li class="tl-main"><span class="tl-dot"></span><div class="tl-card"><span class="tl-time">10.10.2026 <span class="tl-badge" data-date="2026-10-10">Sắp khai trương</span></span><h3>Mong muốn thành hiện thực</h3><p class="muted">Cửa hàng đầu tiên mở cửa đón bà con tại Thôn Vinh Thanh, xã Phú Vinh, TP Huế – hiện thực hóa khát khao <strong>mang giá rẻ đến với mọi nhà</strong>, để người mẹ, người bà nào cũng được đi chợ gần nhà mà không phải đắn đo.</p></div></li>
+  <li class="tl-main"><span class="tl-dot"></span><div class="tl-card"><span class="tl-time">10.10.2026 <span class="tl-badge" data-date="2026-10-10">Sắp khai trương</span></span><h3>Mong muốn thành hiện thực</h3><p class="muted">Cửa hàng đầu tiên mở cửa đón bà con tại Thôn Vinh Thanh, xã Phú Vinh, TP Huế – hiện thực hóa khát khao <strong>mang giá rẻ đến với mọi nhà</strong>, để người mẹ, người bà nào cũng được mua sắm giá rẻ mỗi ngày.</p></div></li>
   <li><span class="tl-dot"></span><div class="tl-card"><span class="tl-time">Tiếp theo</span><h3>Mở rộng tại TP Huế</h3><p class="muted">Mở thêm cửa hàng tại các khu dân cư đông đúc của TP Huế, để thêm nhiều gia đình có nơi đi chợ tiết kiệm ngay gần nhà.</p></div></li>
   <li><span class="tl-dot"></span><div class="tl-card"><span class="tl-time">Định hướng</span><h3>Vươn ra các tỉnh miền Trung</h3><p class="muted">Tìm mặt bằng và đối tác nhượng quyền tại các tỉnh, thành miền Trung, cùng nhau xây dựng chuỗi bách hóa giá rẻ gần gũi với bà con.</p><div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:6px"><a href="#tim-mat-bang" style="font-weight:700">Hợp tác mặt bằng</a><a href="#nhuong-quyen" style="font-weight:700">Tìm hiểu nhượng quyền</a></div></div></li>
  </ol>
@@ -457,7 +460,7 @@ nav.main a.mobile-only{display:none}
  </form>
 </dialog>
 <footer class="site panel"><div class="wrap">
- <div class="stack g8"><span style="font-family:var(--display);font-weight:800;font-size:24px">Bách hóa tiết kiệm<span class="hi">.com</span></span><span>Luôn luôn giá rẻ · Luôn luôn sạch sẽ · Luôn luôn vui vẻ</span><span class="muted" style="font-size:14px">Phụng sự bằng trái tim chân thành</span></div>
+ <div class="stack g8"><span style="font-family:var(--display);font-weight:800;font-size:24px">Bách hóa tiết kiệm<span class="hi">.com</span></span><span>Luôn luôn giá rẻ · Luôn luôn sạch sẽ · Luôn luôn vui vẻ</span><span class="hi" style="font-weight:700">Tiết kiệm hơn – để sống tốt hơn.</span><span class="muted" style="font-size:14px">Phụng sự bằng trái tim chân thành</span></div>
  <div class="stack g8"><b>Liên hệ</b><span>Hotline: <a href="tel:0356738758">0356 738 758</a></span><span>Website: bachhoatietkiem.com</span><span>Fanpage: Bách hóa tiết kiệm</span></div>
  <div class="stack g8"><b>Giờ mở cửa</b><span>6:30 – 22:00, tất cả các ngày trong tuần</span><span id="ft-ch"></span></div>
 </div><div class="wrap copy" style="display:flex;justify-content:space-between;gap:12px"><span>© 2026 Bách hóa tiết kiệm.com</span><a href="#quan-ly" style="color:var(--panel-ink2);font-size:13px">Quản lý</a></div></footer>
